@@ -6,8 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.*;
 import it.polimi.tiw.test.project.beans.*;
-
-import it.polimi.tiw.test.project.beans.User;
+//import it.polimi.tiw.test.project.beans.User;
 
 public class DocumentDao {
 	private Connection con;

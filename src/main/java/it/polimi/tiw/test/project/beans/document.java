@@ -10,6 +10,9 @@ public class document {
 	private String name;
 	private String date;
 	private String type;
+	private folder f;
+	private Subfolder sf;
+	private User u;
 
 	public int getId() {
 		return id;
@@ -41,6 +44,17 @@ public class document {
 
 	public String getdate() {
 		return date;
+	}
+
+	public void setFolder (folder f){
+		this.f = f;
+	}
+	public void setSubfolder (Subfolder sf){
+		this.sf = sf;
+	}
+	public void setUser (User  u){
+		this.u = u;
+		this.Owner = u.getName();
 	}
 
 

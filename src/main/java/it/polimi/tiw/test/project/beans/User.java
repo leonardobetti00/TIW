@@ -42,6 +42,7 @@ public class User {
 	public ArrayList<folder> getfolder() {
 		return this.folders;
 	}
+	public void addFolder (folder f){this.folders.add(f);}
 
 	public void setSurname(folder fold) {
 		this.folders.add(fold);
